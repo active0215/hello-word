@@ -13,16 +13,19 @@ public class test1 {
 		String s3;
 		s3 = s1 + s2;
 
-		//String and StringBufferŠÔ‚Ì“]Š·
-		//String¨ StringBuffer
+		//String and StringBufferÅ Ã”â€šÃŒâ€œ]Å Â·
+		//StringÂÂ¨ StringBuffer
 		String s5 = "987";
 		StringBuffer sb5 = new StringBuffer(s5);
 
-		//StringBuffer¨String
+		//StringBufferÂÂ¨String
 		StringBuffer sb6= new StringBuffer("gkh");
 		String s6 = sb5.toString();
 
 		System.out.println(sb3);
+		
+		//add the comment the file for hello-world
+		System.out.println("branch edit");
 
 	}
 
